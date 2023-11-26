@@ -11,11 +11,11 @@ class MySpringBootApp11ApplicationTests {
 
 	@Autowired
 	NewsController newsController;
-	Integer ref;
+	//Integer ref;
 	
 	@Test
 	void contextLoads() {
-		assertThat(ref).isNotNull();
+		assertThat(newsController).isNotNull();
 	}
 
 }
